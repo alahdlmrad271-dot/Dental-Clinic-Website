@@ -164,17 +164,17 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (isDragging) {
-      window.addEventListener("mousemove", handleDrag);
-      window.addEventListener("mouseup", () => setIsDragging(false));
-      window.addEventListener("touchmove", handleDrag);
-      window.addEventListener("touchend", () => setIsDragging(false));
-    }
+    if (!isDragging) return;
+    const stopDragging = () => setIsDragging(false);
+    window.addEventListener("mousemove", handleDrag);
+    window.addEventListener("mouseup", stopDragging);
+    window.addEventListener("touchmove", handleDrag);
+    window.addEventListener("touchend", stopDragging);
     return () => {
       window.removeEventListener("mousemove", handleDrag);
-      window.removeEventListener("mouseup", () => setIsDragging(false));
+      window.removeEventListener("mouseup", stopDragging);
       window.removeEventListener("touchmove", handleDrag);
-      window.removeEventListener("touchend", () => setIsDragging(false));
+      window.removeEventListener("touchend", stopDragging);
     };
   }, [isDragging]);
 
@@ -210,7 +210,7 @@ export default function App() {
             <FaWhatsapp size={16} />
             <span>واتساب المباشر</span>
           </a>
-          <a href="#contact" className="flex items-center gap-2 hover:text-accent transition-colors" data-testid="link-top-map">
+          <a href="https://maps.google.com/?q=Riyadh,Saudi+Arabia" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-accent transition-colors" data-testid="link-top-map">
             <MapPin size={16} />
             <span>الموقع الجغرافي</span>
           </a>
@@ -709,7 +709,7 @@ export default function App() {
                   { name: "فهد المطيري", text: "تقويم الأسنان مع الدكتور محمد كان مريح وسريع، التقنيات المستخدمة حديثة جداً والنتيجة مبهرة." }
                 ].map((testimonial, i) => (
                   <div key={i} className="embla__slide flex-[0_0_100%] min-w-0 sm:flex-[0_0_50%] lg:flex-[0_0_33.33%] pl-6">
-                    <Card className="h-full bg-white border-transparent shadow-sm">
+                    <Card className="h-full bg-white/60 backdrop-blur-md border border-white/40 shadow-lg">
                       <CardContent className="p-8">
                         <div className="flex text-accent mb-6">
                           {[...Array(5)].map((_, j) => <Star key={j} size={20} fill="currentColor" />)}
