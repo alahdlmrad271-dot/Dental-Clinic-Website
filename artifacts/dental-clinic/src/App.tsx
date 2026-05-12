@@ -101,7 +101,20 @@ export default function App() {
   const [isDragging, setIsDragging] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   
-  const [emblaRef] = useEmblaCarousel({ loop: true, direction: "rtl" });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, direction: "rtl" });
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    const interval = setInterval(() => {
+      emblaApi.scrollNext();
+    }, 4000);
+    const onPointerDown = () => clearInterval(interval);
+    emblaApi.on("pointerDown", onPointerDown);
+    return () => {
+      clearInterval(interval);
+      emblaApi.off("pointerDown", onPointerDown);
+    };
+  }, [emblaApi]);
 
   useEffect(() => {
     const handleScroll = () => {
