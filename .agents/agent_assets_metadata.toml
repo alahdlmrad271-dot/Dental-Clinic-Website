@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "_xdOjxKtLMChODZCm9WZO"
+uri = "file://artifacts/dental-clinic/src/assets/hero-bg.png"
+type = "image"
+title = "Luxury dental clinic interior"
+
+[[generated]]
+id = "rAhgHRkgUBWlp2vv9MDao"
+uri = "file://artifacts/dental-clinic/src/assets/about-clinic.png"
+type = "image"
+title = "Luxury clinic reception"
+
+[[generated]]
+id = "wFvq2hDBBDk3VJNNP5c_t"
+uri = "file://artifacts/dental-clinic/src/assets/doctor-1.png"
+type = "image"
+title = "Male Arab dentist headshot"
+
+[[generated]]
+id = "U4iKPBnLpZkBT-8QWjGCg"
+uri = "file://artifacts/dental-clinic/src/assets/doctor-2.png"
+type = "image"
+title = "Female Arab dentist headshot"
+
+[[generated]]
+id = "xjRqP5Bf4AeSMDrbjvB60"
+uri = "file://artifacts/dental-clinic/src/assets/doctor-3.png"
+type = "image"
+title = "Young male dentist headshot"
+
+[[generated]]
+id = "wne8mZlobfTuyS7lMuS2T"
+uri = "file://artifacts/dental-clinic/src/assets/before.png"
+type = "image"
+title = "Before cosmetic dentistry teeth"
+
+[[generated]]
+id = "VSdqDxKvSS2X47jI4d2y2"
+uri = "file://artifacts/dental-clinic/src/assets/after.png"
+type = "image"
+title = "After Hollywood smile teeth"
+
+[[generated]]
+id = "9atR0pa_MY7927icJ5hb7"
+uri = "file://artifacts/dental-clinic/src/assets/gallery-1.png"
+type = "image"
+title = "Perfect smile gallery 1"
+
+[[generated]]
+id = "4mycNf4wOfAHy5BkOuxHi"
+uri = "file://artifacts/dental-clinic/src/assets/gallery-2.png"
+type = "image"
+title = "Perfect smile gallery 2"
+
+[[generated]]
+id = "74iG3nEkw8YxyfBQWTmAy"
+uri = "file://artifacts/dental-clinic/src/assets/gallery-3.png"
+type = "image"
+title = "Perfect smile gallery 3"
