@@ -1,0 +1,129 @@
+Create a premium luxury dental clinic website with a modern, trustworthy, elegant medical design focused on increasing appointment bookings and patient trust.
+
+COLOR PALETTE:
+- Primary: Deep Teal (#0F766E)
+- Secondary: Soft Aqua (#CCFBF1)
+- Accent: Gold (#D4AF37)
+- Background: White (#FFFFFF)
+- Light Sections: #F8FAFC
+- Text: Dark Slate (#1E293B)
+
+STYLE:
+The website should feel luxurious, calming, modern, and extremely professional. Use clean layouts, soft shadows, rounded corners, glassmorphism cards, premium spacing, and smooth animations. The experience should feel similar to Apple + luxury medical branding.
+
+LANGUAGE:
+- Full Arabic RTL support
+- Elegant Arabic typography
+- Mobile-first responsive design
+- Smooth scrolling animations
+- Sticky navbar
+- Fast loading and SEO optimized
+
+MAIN GOAL:
+Increase appointment bookings and make visitors trust the clinic immediately.
+
+WEBSITE SECTIONS:
+
+1. HERO SECTION
+- Full-width premium dental clinic image
+- Arabic headline:
+  "ابتسامتك المثالية تبدأ معنا"
+- Supporting text explaining advanced dental care and patient comfort
+- Primary CTA button:
+  "احجز موعد الآن"
+- Secondary CTA:
+  "اتصل بنا"
+- Floating trust badges:
+  +15 سنة خبرة
+  +5000 عميل سعيد
+  أحدث تقنيات الأسنان
+
+2. QUICK CONTACT BAR (VERY IMPORTANT)
+Add a floating top contact bar containing:
+- Phone number button with click-to-call
+- WhatsApp direct chat button
+- Google Maps location button
+- Working hours
+- Sticky mobile contact buttons
+
+3. SERVICES SECTION
+Premium service cards with icons and hover effects:
+- زراعة الأسنان
+- هوليود سمايل
+- تقويم الأسنان
+- تبييض الأسنان
+- علاج الجذور
+- أسنان الأطفال
+
+4. ABOUT THE CLINIC
+- Modern split layout
+- Clinic images
+- Story about comfort and advanced technology
+- Animated statistics counters
+
+5. DOCTORS SECTION
+- Premium doctor cards
+- Experience badges
+- Specializations
+- Elegant hover effects
+
+6. BEFORE & AFTER SECTION
+- Interactive before/after slider
+- Smile transformation gallery
+
+7. APPOINTMENT BOOKING SECTION (VERY IMPORTANT)
+Create a beautiful luxury booking system including:
+- Full name input
+- Phone number input
+- Service selection dropdown
+- Date picker calendar
+- Time selection
+- Notes field
+- Large premium submit button:
+  "تأكيد الحجز"
+
+After clicking submit:
+- Show success message animation
+- Simulate sending booking to clinic WhatsApp/email
+
+8. GOOGLE MAPS SECTION (IMPORTANT)
+Embed an elegant Google Maps section showing clinic location with:
+- Modern styled map container
+- Clinic address
+- Navigation button:
+  "افتح الموقع في خرائط جوجل"
+- Nearby landmark mention
+
+9. TESTIMONIALS
+- 5-star reviews
+- Arabic testimonials
+- Glassmorphism cards
+- Auto-scrolling carousel
+
+10. FAQ SECTION
+Accordion design with smooth animations.
+
+11. FOOTER
+Luxury dark footer including:
+- Clinic logo
+- Phone number
+- WhatsApp
+- Email
+- Google Maps link
+- Working hours
+- Social media icons
+- Quick navigation links
+
+ADVANCED FEATURES:
+- Floating WhatsApp button
+- Sticky booking button on mobile
+- Elegant loading animations
+- Smooth hover interactions
+- Soft gradients
+- Premium medical aesthetic
+- Clean modern UI/UX
+- Accessibility optimized
+- SEO optimized
+
+IMPORTANT:
+The final website must look like a world-class luxury dental clinic website similar to top clinics in Dubai and Riyadh, focused heavily on trust, elegance, and easy booking/contact.
